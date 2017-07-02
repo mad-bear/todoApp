@@ -1,0 +1,22 @@
+{
+  "name": "node-mongo",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mad-bear/todoApp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mad-bear/todoApp/issues"
+  },
+  "homepage": "https://github.com/mad-bear/todoApp#readme",
+  "description": ""
+}
