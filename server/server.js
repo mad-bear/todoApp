@@ -5,6 +5,7 @@ const {Todo} = require('./models/todo');
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
+const PORT = process.env.PORT | 3000;
 
 app.use(bodyParser.json());
 
@@ -36,6 +37,6 @@ app.get('/todo/:id', (req, res) =>{
   });
 });
 
-app.listen(3000, () => {
-  console.log('Server on board');
+app.listen(PORT, () => {
+  console.log('Server on board', PORT);
 });
